@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #0a192f;
+    --primary-color-light: #0a192f8d;
+    --secondary-color: #62ebcf;
+    --secondary-color-dark: #15D1AB;
+    --accent-color: #ccd6f6;
+    --accent-color-dark: #8892b0;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+footer span i{
+    color: var(--secondary-color);
+}
+
+footer span p{
+    color: var(--accent-color-dark);
+}

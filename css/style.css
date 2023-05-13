@@ -1,0 +1,49 @@
+@import url('preloader.css');
+@import url('custom-scrollbar.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('about.css');
+@import url('contact.css');
+@import url('footer.css');
+
+/* Google Fonts */
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+:root{
+    --primary-color: #0a192f;
+    --secondary-color: #62ebcf;
+    --secondary-color-dark: #15D1AB;
+    --accent-color: #ccd6f6;
+    --accent-color-dark: #8892b0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
