@@ -17,6 +17,7 @@ header{
     top: 0;
     border-bottom: 1px solid #000000;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     background-color: var(--primary-color-light);
     z-index: 2;
 }
