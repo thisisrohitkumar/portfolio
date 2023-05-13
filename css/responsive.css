@@ -1,0 +1,127 @@
+:root{
+    --primary-color: #0a192f;
+    --primary-color-light: #0a192f8d;
+    --secondary-color: #62ebcf;
+    --secondary-color-dark: #15D1AB;
+    --accent-color: #ccd6f6;
+    --accent-color-dark: #8892b0;
+}
+
+@media only screen and (max-width: 600px){
+
+    body{
+        font-size: 15px;
+    }
+
+    .preloader-container img{
+        transform: scale(.3);
+    }
+
+    header{
+        padding: 15px 30px;
+    }
+
+    header img{
+        width: 40px;
+        height: 40px;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+
+    #open-mobile-nav{
+        display: block;
+        color: var(--secondary-color);
+        transition: all .3s ease-in;
+        font-size: 30px;
+    }
+    
+    #close-mobile-nav{
+        display: none;
+        color: var(--secondary-color);
+        transition: all .3s ease-in;
+        font-size: 30px;
+    }
+
+    .hero-container{
+        display: flex;
+    }
+
+    .hero-container span{
+        margin-left: 30px;
+    }
+
+    .hero-container h1{
+        font-size: 40px;
+    }
+
+    .hero-container h2{
+        font-size: 30px;
+    }
+
+    .hero-container p:last-of-type{
+        font-size: 20px;
+        padding-right: 15px;
+    }
+
+    .hero-container a{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+    
+    .hero-container a:hover{
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .fixed-social-icons-mobile{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .fixed-social-icons-mobile a{
+        color: var(--accent-color-dark);
+        border: none;
+        font-size: 20px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-bottom: 30px;
+    }
+
+    .fixed-social-icons-mobile a:hover{
+        background-color: var(--primary-color);
+        color: var(--accent-color-dark);
+        outline: none;
+        font-size: 20px;
+        margin-top: -20px;
+        margin-left: -20px;
+        margin-bottom: 30px;
+    }
+    
+    .about-container{
+        display: none;
+    }
+
+    .contact-container{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .fixed-email{
+        display: none;
+    }
+
+    .fixed-social-icons{
+        display: none;
+    }
+
+}

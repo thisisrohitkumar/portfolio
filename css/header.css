@@ -76,3 +76,7 @@ header nav li button:hover{
     border-radius: 0;
 }
 
+.mobile-nav{
+    display: none;
+}
+

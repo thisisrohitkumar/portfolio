@@ -115,6 +115,10 @@
     gap: 20px;
 }
 
+.fixed-social-icons-mobile{
+    display: none;
+}
+
 .fixed-social-icons i{
     color: var(--accent-color-dark);
     font-size: 25px;
