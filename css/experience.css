@@ -1,0 +1,101 @@
+:root{
+    --primary-color: #0a192f;
+    --primary-color-light: #0a192f8d;
+    --secondary-color: #62ebcf;
+    --secondary-color-dark: #15D1AB;
+    --accent-color: #ccd6f6;
+    --accent-color-dark: #8892b0;
+}
+
+.experience-container{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.experience-container span{
+    background-color: red;
+    width: 1000px;
+}
+
+.experience-container article img{
+    width: 500px;
+    height: 300px;
+    outline: 3px solid var(--secondary-color-dark);
+    outline-offset: 20px;
+    margin-top: 20px;
+}
+
+.experience-container h3{
+    color: var(--accent-color);
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.experience-container em{
+    color: var(--secondary-color-dark);
+    font-size: 25px;
+}
+
+.experience-container article{
+    position: relative;
+}
+
+.experience-container article p{
+    width: 400px;
+}
+
+.experience-container aside{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    text-align: right;
+}
+
+.experience-container aside em{
+    font-size: 15px;
+}
+.experience-container aside h5{
+    color: var(--accent-color);
+    font-size: 30px;
+}
+
+.experience-container section{
+    background-color: var(--primary-color-light);
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    transform: translateX(15px);
+}
+
+.experience-container aside p{
+    font-size: 20px;
+    width: 450px;
+    color: var(--accent-color-dark);
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.experience-container figure{
+    margin-top: 20px;
+}
+
+.experience-container figure i {
+    background-color: var(--accent-color);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: var(--primary-color);
+    border: 1px solid var(--secondary-color-dark);
+}
+
+.experience-container section i {
+    color: var(--secondary-color-dark);
+    font-size: 25px;
+}

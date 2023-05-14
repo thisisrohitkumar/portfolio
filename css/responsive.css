@@ -224,6 +224,59 @@
         gap: 10px;
     }
 
+    .experience-container{
+        padding-top: 120px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: auto;
+    }
+
+    .experience-container span{
+        width: 290px;
+    }
+
+    .experience-container span h3{
+        margin-left: 30px;
+    }
+    
+    .experience-container article img{
+        width: 250px;
+        height: 150px;
+        outline: 3px solid var(--secondary-color-dark);
+        outline-offset: 20px;
+        margin-top: 20px;
+    }
+
+    .experience-container article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experience-container article p{
+        width: 290px;
+    }
+
+    .experience-container aside{
+        position: relative;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .experience-container section{
+        padding: 0px;
+        transform: translateX(0px);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .experience-container figure i {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
     .contact-container{
         display: flex;
         padding-top: 100px;
