@@ -11,8 +11,8 @@
 
     ::-webkit-scrollbar {
         width: 0;
-      }
-   
+    }
+
     body{
         font-size: 15px;
     }
@@ -275,6 +275,72 @@
     .experience-container figure i {
         margin-left: 0px;
         margin-right: 10px;
+    }
+
+    .project-container{
+        padding-top: 120px;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: auto;
+    }
+
+    .project-container span{
+        width: 290px;
+    }
+
+    .project-container span h3{
+        margin-left: 30px;
+    }
+    
+    .project-container article img{
+        width: 150px;
+        height: 200px;
+        outline: 3px solid var(--secondary-color-dark);
+        outline-offset: 20px;
+        margin-top: 20px;
+    }
+
+    .project-container article:last-of-type img{
+        width: 250px;
+        height: 150px;
+        outline: 3px solid var(--secondary-color-dark);
+        outline-offset: 20px;
+        margin-top: 20px;
+    }
+
+    .project-container article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-container article p{
+        width: 290px;
+    }
+
+    .project-container aside{
+        position: relative;
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .project-container section{
+        padding: 0px;
+        transform: translateX(0px);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .project-container figure i {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .skills-container{
+        justify-content: center;
+        padding-left: 30px;
     }
 
     .contact-container{
