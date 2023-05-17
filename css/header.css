@@ -16,8 +16,8 @@ header{
     position: fixed;
     top: 0;
     border-bottom: 1px solid #000000;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     background-color: var(--primary-color-light);
     z-index: 2;
 }
