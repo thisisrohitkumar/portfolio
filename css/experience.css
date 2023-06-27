@@ -9,8 +9,8 @@
 
 .experience-container{
     width: 100vw;
-    height: 100vh;
-    padding-top: 200px;
+    height: auto;
+    padding-top: 100px;
     padding-left: 250px;
     padding-right: 250px;
 }
@@ -42,6 +42,8 @@
 
 .experience-container article{
     position: relative;
+    height: auto;
+    margin-bottom: 100px;
 }
 
 .experience-container article p{
