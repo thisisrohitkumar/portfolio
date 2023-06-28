@@ -7,7 +7,7 @@
     --accent-color-dark: #8892b0;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 786px){
 
     ::-webkit-scrollbar {
         width: 0;
